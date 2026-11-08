@@ -1,0 +1,1342 @@
+{
+  "opportunity": {
+    "id": "OP-2048",
+    "title": "Coastal Sensor Housing Programme",
+    "buyer": "Public Infrastructure Authority (fictional)",
+    "reference": "PROC-DEMO-2048",
+    "quantity": 10000,
+    "deadline_days": 25,
+    "start_date": "2026-11-09",
+    "material": "Aluminium 6061-T6",
+    "required_certificate": "ISO 9001",
+    "stages": [
+      {
+        "id": "fabricate",
+        "name": "CNC fabrication",
+        "process": "cnc_fabrication"
+      },
+      {
+        "id": "finish",
+        "name": "Surface finishing",
+        "process": "surface_finishing"
+      },
+      {
+        "id": "inspect",
+        "name": "Final inspection",
+        "process": "inspection"
+      }
+    ],
+    "budget_aed": 950000
+  },
+  "plan": {
+    "status": "OPTIMAL",
+    "reason": "Computed allocation passed the independent constraint checker.",
+    "allocations": [
+      {
+        "stage": "CNC fabrication",
+        "stage_index": 0,
+        "factory_id": "f-dxb-01",
+        "organization_id": null,
+        "factory": "Gulf Precision Works",
+        "quantity": 10000,
+        "first_day": 1,
+        "last_day": 23,
+        "daily": [
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 0,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 1,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 2,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 3,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 4,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 5,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 6,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 7,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 8,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 9,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 11,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 12,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 13,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 14,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 15,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 16,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 20,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 21,
+            "quantity": 540
+          },
+          {
+            "stage": 0,
+            "factory_id": "f-dxb-01",
+            "day": 22,
+            "quantity": 280
+          }
+        ]
+      },
+      {
+        "stage": "Surface finishing",
+        "stage_index": 1,
+        "factory_id": "f-shj-02",
+        "organization_id": null,
+        "factory": "Sharjah Surface Lab",
+        "quantity": 10000,
+        "first_day": 2,
+        "last_day": 24,
+        "daily": [
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 1,
+            "quantity": 520
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 3,
+            "quantity": 520
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 4,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 6,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 8,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 9,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 10,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 11,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 12,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 13,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 14,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 15,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 16,
+            "quantity": 620
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 18,
+            "quantity": 420
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 20,
+            "quantity": 360
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 21,
+            "quantity": 320
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 22,
+            "quantity": 520
+          },
+          {
+            "stage": 1,
+            "factory_id": "f-shj-02",
+            "day": 23,
+            "quantity": 520
+          }
+        ]
+      },
+      {
+        "stage": "Final inspection",
+        "stage_index": 2,
+        "factory_id": "f-rak-03",
+        "organization_id": null,
+        "factory": "Northern Metrology & QA",
+        "quantity": 10000,
+        "first_day": 3,
+        "last_day": 25,
+        "daily": [
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 2,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 4,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 5,
+            "quantity": 100
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 6,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 7,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 8,
+            "quantity": 20
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 9,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 10,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 11,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 12,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 13,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 14,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 15,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 16,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 17,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 18,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 19,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 21,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 22,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 23,
+            "quantity": 520
+          },
+          {
+            "stage": 2,
+            "factory_id": "f-rak-03",
+            "day": 24,
+            "quantity": 520
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 1,
+        "arrival_day": 2,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 2,
+        "arrival_day": 3,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 3,
+        "arrival_day": 4,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 4,
+        "arrival_day": 5,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 5,
+        "arrival_day": 6,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 6,
+        "arrival_day": 7,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 7,
+        "arrival_day": 8,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 8,
+        "arrival_day": 9,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 9,
+        "arrival_day": 10,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 10,
+        "arrival_day": 11,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 12,
+        "arrival_day": 13,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 13,
+        "arrival_day": 14,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 14,
+        "arrival_day": 15,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 15,
+        "arrival_day": 16,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 16,
+        "arrival_day": 17,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 17,
+        "arrival_day": 18,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 21,
+        "arrival_day": 22,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 22,
+        "arrival_day": 23,
+        "quantity": 540
+      },
+      {
+        "stage": "CNC fabrication",
+        "from_factory": "Gulf Precision Works",
+        "to_factory": "Sharjah Surface Lab",
+        "day": 23,
+        "arrival_day": 24,
+        "quantity": 280
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 2,
+        "arrival_day": 3,
+        "quantity": 520
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 4,
+        "arrival_day": 5,
+        "quantity": 520
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 5,
+        "arrival_day": 6,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 7,
+        "arrival_day": 8,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 9,
+        "arrival_day": 10,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 10,
+        "arrival_day": 11,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 11,
+        "arrival_day": 12,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 12,
+        "arrival_day": 13,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 13,
+        "arrival_day": 14,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 14,
+        "arrival_day": 15,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 15,
+        "arrival_day": 16,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 16,
+        "arrival_day": 17,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 17,
+        "arrival_day": 18,
+        "quantity": 620
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 19,
+        "arrival_day": 20,
+        "quantity": 420
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 21,
+        "arrival_day": 22,
+        "quantity": 360
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 22,
+        "arrival_day": 23,
+        "quantity": 320
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 23,
+        "arrival_day": 24,
+        "quantity": 520
+      },
+      {
+        "stage": "Surface finishing",
+        "from_factory": "Sharjah Surface Lab",
+        "to_factory": "Northern Metrology & QA",
+        "day": 24,
+        "arrival_day": 25,
+        "quantity": 520
+      }
+    ],
+    "completion_day": 25,
+    "completion_date": "2026-12-03",
+    "objective_aed": 542000,
+    "objective": "Minimize estimated unit costs, transport costs, and AED 4,000 per active stage-facility assignment.",
+    "budget_aed": 950000,
+    "runtime_ms": 93.13,
+    "input_hash": "6dbea29b71c78beef0c7b72140a4a157deba4193b0a721f19f62cba6af9cc3b5",
+    "solver_version": "OR-Tools CP-SAT",
+    "validated": true,
+    "validation_errors": [],
+    "raw": {
+      "production": [
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 0,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 1,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 2,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 3,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 4,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 5,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 6,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 7,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 8,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 9,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 11,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 12,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 13,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 14,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 15,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 16,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 20,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 21,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "factory_id": "f-dxb-01",
+          "day": 22,
+          "quantity": 280
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 1,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 3,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 4,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 6,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 8,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 9,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 10,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 11,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 12,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 13,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 14,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 15,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 16,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 18,
+          "quantity": 420
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 20,
+          "quantity": 360
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 21,
+          "quantity": 320
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 22,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "factory_id": "f-shj-02",
+          "day": 23,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 2,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 4,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 5,
+          "quantity": 100
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 6,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 7,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 8,
+          "quantity": 20
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 9,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 10,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 11,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 12,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 13,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 14,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 15,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 16,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 17,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 18,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 19,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 21,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 22,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 23,
+          "quantity": 520
+        },
+        {
+          "stage": 2,
+          "factory_id": "f-rak-03",
+          "day": 24,
+          "quantity": 520
+        }
+      ],
+      "shipments": [
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 0,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 1,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 2,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 3,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 4,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 5,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 6,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 7,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 8,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 9,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 11,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 12,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 13,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 14,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 15,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 16,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 20,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 21,
+          "quantity": 540
+        },
+        {
+          "stage": 0,
+          "from_factory": "f-dxb-01",
+          "to_factory": "f-shj-02",
+          "day": 22,
+          "quantity": 280
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 1,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 3,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 4,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 6,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 8,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 9,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 10,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 11,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 12,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 13,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 14,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 15,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 16,
+          "quantity": 620
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 18,
+          "quantity": 420
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 20,
+          "quantity": 360
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 21,
+          "quantity": 320
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 22,
+          "quantity": 520
+        },
+        {
+          "stage": 1,
+          "from_factory": "f-shj-02",
+          "to_factory": "f-rak-03",
+          "day": 23,
+          "quantity": 520
+        }
+      ]
+    }
+  }
+}
